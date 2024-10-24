@@ -1,7 +1,8 @@
 import random
 
 def generate_ppm(width: int, height: int, bits: int) -> None:
-    """Gera uma imagem no formato PPM conforme os parâmetros passados.
+    """
+    Gera uma imagem no formato PPM conforme os parâmetros passados.
     
     Args:
         width (int): largura.
@@ -28,4 +29,4 @@ def generate_ppm(width: int, height: int, bits: int) -> None:
 
 generate_ppm(100, 100, 16)
 
-generate_ppm(100, 100, 256)
+generate_ppm(1000, 1000, 256)

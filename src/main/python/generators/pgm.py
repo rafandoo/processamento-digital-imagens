@@ -1,7 +1,8 @@
 import random
 
 def generate_pgm(width, height):
-    """Gera uma imagem no formato PGM conforme os parâmetros passados.
+    """
+    Gera uma imagem no formato PGM conforme os parâmetros passados.
     
     Args:
         width (int): largura.

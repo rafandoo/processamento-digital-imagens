@@ -1,7 +1,8 @@
 import random
 
 def generate_pbm(width: int, height: int) -> None:
-    """Gera uma imagem no formato PBM conforme os parâmetros passados.
+    """
+    Gera uma imagem no formato PBM conforme os parâmetros passados.
     
     Args:
         width (int): largura.
